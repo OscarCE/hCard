@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root,
+.cont {
+  height: 100%;
+}
+
+@font-face {
+  font-family: 'MerriweatherSans-ExtraBold';
+  src: url('../src/fonts/MerriweatherSans-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'MerriweatherSans-Regular';
+  src: url('../src/fonts/MerriweatherSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Merriweather-Bold';
+  src: url('../src/fonts/Merriweather-Bold.ttf') format('truetype');
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'Merriweather-Regular';
+  src: url('../src/fonts/Merriweather-Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+
+.defaultAvatar {
+  height: 100%;
+  width: 100%;
+  background-image: url(../public/Avatar.svg);
+  background-size: cover;
+}
